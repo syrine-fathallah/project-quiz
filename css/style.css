@@ -219,7 +219,7 @@ section .option_list{
 
 section .option_list .option{
     background: aliceblue;
-    border: 1px solid #84c5fe;
+    border: 1px solid #000000;
     border-radius: 5px;
     padding: 8px 15px;
     font-size: 17px;
@@ -236,21 +236,22 @@ section .option_list .option:last-child{
 }
 
 section .option_list .option:hover{
-    color: #004085;
+    color:lightcoral;
     background: #cce5ff;
-    border: 1px solid #b8daff;
+    border: 1px solid #000000;
 }
 
 section .option_list .option.correct{
-    color: #155724;
+    color: #00791c;
     background: #d4edda;
-    border: 1px solid #c3e6cb;
+    
+    border: 1px solid #000000;
 }
 
 section .option_list .option.incorrect{
-    color: #721c24;
+    color: #a70818;
     background: #f8d7da;
-    border: 1px solid #f5c6cb;
+    border: 1px solid #000000;
 }
 
 section .option_list .option.disabled{
@@ -287,9 +288,6 @@ footer{
     align-items: center;
     justify-content: space-between;
     border-radius: 5px 5px 0 0;
-   
-    
-    
 }
 
 footer .total_que span{
@@ -314,10 +312,10 @@ footer button{
     cursor: pointer;
     border: none;
     outline: none;
-    color: #fff;
+    color:#351f2b;
     border-radius: 5px;
-    background: #007bff;
-    border: 1px solid #007bff;
+    background:#f0c2ce;
+    border: 1.5px solid black;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
@@ -326,7 +324,7 @@ footer button{
 }
 
 footer button:hover{
-    background: #0263ca;
+    background:#f8a9be;
 }
 
 footer button.show{
@@ -336,8 +334,9 @@ footer button.show{
 }
 
 .result_box{
-    background: #fff;
+    background:#f0c2ce;
     border-radius: 5px;
+    border: 1.5px solid black;
     display: flex;
     padding: 25px 30px;
     width: 450px;
@@ -352,7 +351,7 @@ footer button.show{
 
 .result_box .icon{
     font-size: 100px;
-    color: #007bff;
+    color:#351f2b;
     margin-bottom: 10px;
 }
 
@@ -388,12 +387,12 @@ footer button.show{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #007bff;
+    border: 1px solid #000000;
     transition: all 0.3s ease;
 }
 
 .buttons button.restart{
-    color: #fff;
+    color:coral;
     background: #007bff;
 }
 
@@ -402,11 +401,11 @@ footer button.show{
 }
 
 .buttons button.quit{
-    color: #007bff;
-    background: #fff;
+    color:#351f2b;
+    background:#f0c2ce;
 }
 
 .buttons button.quit:hover{
-    color: #fff;
-    background: #007bff;
+    color: #351f2b;
+    background: #f8a9be;
 }
