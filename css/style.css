@@ -1,5 +1,5 @@
 /* importing google fonts */
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -24,8 +24,8 @@ img {
   }
 
 ::selection{
-    color: #fff;
-    background: #351f2b;/* Semi-transparent pink selection highlight */
+    color:#351f2b;
+    background: #351f2b49;/* Semi-transparent pink selection highlight */
 }
 
 .start_btn{
@@ -336,9 +336,9 @@ footer button.show{
 .result_box{
     background:#f0c2ce;
     border-radius: 5px;
-    border: 1.5px solid black;
+    border: 3px solid black;
     display: flex;
-    padding: 25px 30px;
+    padding: 60px 40px;
     width: 450px;
     align-items: center;
     flex-direction: column;
@@ -351,7 +351,7 @@ footer button.show{
 
 .result_box .icon{
     font-size: 100px;
-    color:#351f2b;
+    color:black;
     margin-bottom: 10px;
 }
 
@@ -392,20 +392,20 @@ footer button.show{
 }
 
 .buttons button.restart{
-    color:coral;
-    background: #007bff;
+    color:#f8a9be;
+    background:#351f2b;
 }
 
 .buttons button.restart:hover{
-    background: #0263ca;
+    background: #351f2be5;
 }
 
 .buttons button.quit{
-    color:#351f2b;
+    color: #351f2b;
     background:#f0c2ce;
 }
 
 .buttons button.quit:hover{
-    color: #351f2b;
-    background: #f8a9be;
+    color: #f0c2ce;
+    background:  #351f2be5;
 }

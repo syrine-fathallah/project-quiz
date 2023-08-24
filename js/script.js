@@ -1,14 +1,14 @@
 //selecting all required elements
-const start_btn = document.querySelector(".start_btn button");
-const info_box = document.querySelector(".info_box");
-const exit_btn = info_box.querySelector(".buttons .quit");
-const continue_btn = info_box.querySelector(".buttons .restart");
-const quiz_box = document.querySelector(".quiz_box");
-const result_box = document.querySelector(".result_box");
-const option_list = document.querySelector(".option_list");
-const time_line = document.querySelector("header .time_line");
-const timeText = document.querySelector(".timer .time_left_txt");
-const timeCount = document.querySelector(".timer .timer_sec");
+const start_btn = document.querySelector(".start_btn button");// selects the button element inside an element with the class "start_btn" and assigns it to the variable start_btn.
+const info_box = document.querySelector(".info_box");// selects an element with the class "info_box" and assigns it to the variable info_box
+const exit_btn = info_box.querySelector(".buttons .quit");//selects the element with the class "quit" that is a descendant of the element stored in info_box and assigns it to the variable exit_btn.
+const continue_btn = info_box.querySelector(".buttons .restart");//selects the element with the class "restart" that is a descendant of the element stored in info_box and assigns it to the variable continue_btn.
+const quiz_box = document.querySelector(".quiz_box");//selects an element with the class "quiz_box" and assigns it to the variable quiz_box.
+const result_box = document.querySelector(".result_box");//selects an element with the class "result_box" and assigns it to the variable result_box.
+const option_list = document.querySelector(".option_list");//selects an element with the class "option_list" and assigns it to the variable option_list.
+const time_line = document.querySelector("header .time_line");//selects the element with the class "time_line" that is a descendant of the "header" element and assigns it to the variable time_line.
+const timeText = document.querySelector(".timer .time_left_txt");//selects the element with the class "time_left_txt" that is a descendant of the element with the class "timer" and assigns it to the variable timeText.
+const timeCount = document.querySelector(".timer .timer_sec");// selects the element with the class "timer_sec" that is a descendant of the element with the class "timer" and assigns it to the variable timeCount.
 
 // if startQuiz button clicked
 start_btn.onclick = ()=>{
@@ -153,16 +153,16 @@ function showResult(){
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 3){ // if user scored more than 3
         //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span>and congrats! , You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>and congrats! 🎉, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
     else if(userScore > 1){ // if user scored more than 1
-        let scoreTag = '<span>and nice , You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
-        scoreText.innerHTML = scoreTag;
+        let scoreTag = '<span>and nice 😃, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        scoreText.innerHTML = scoreTag; //adding new span tag inside score_Text
     }
     else{ // if user scored less than 1
-        let scoreTag = '<span>and sorry , You got only <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
-        scoreText.innerHTML = scoreTag;
+        let scoreTag = '<span>and sorry ☹️, You got only <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        scoreText.innerHTML = scoreTag; //adding new span tag inside score_Text
     }
 }
 

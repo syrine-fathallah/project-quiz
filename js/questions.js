@@ -2,57 +2,57 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "Which planet in our solar system has the most moons?",
+    answer: "Jupiter",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune"
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "Which famous mathematician developed the concept of calculus?",
+    answer: "Isaac Newton",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "Albert Einstein",
+      "Archimedes",
+      "Pythagoras",
+      "Isaac Newton"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "What is the Doppler effect?",
+    answer: "The change in frequency or wavelength of waves due to relative motion",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "The change in frequency or wavelength of waves due to relative motion",
+      "The interference of waves resulting in cancellation or reinforcement",
+      "The reflection of waves off a surface",
+      "The bending of waves around obstacles"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "Which process is responsible for volcanic eruptions?",
+    answer: "Hotspot activity",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "Subduction",
+      "Seafloor spreading",
+      "Faulting",
+      "Hotspot activity"
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "What is the capital city of Brazil?",
+    answer: "Brasília",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "Brasília",
+      "Rio de Janeiro",
+      "São Paulo",
+      "Buenos Aires"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
